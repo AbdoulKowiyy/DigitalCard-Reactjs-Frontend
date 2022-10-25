@@ -1,0 +1,39 @@
+// User reducer types
+// User reducer types
+export const SET_AUTHENTICATED = 'SET_AUTHENTICATED';
+export const SET_IKONCHECK = 'SET_IKONCHECK'
+export const SET_UNAUTHENTICATED = 'SET_UNAUTHENTICATED';
+export const SET_USER = 'SET_USER';
+export const LOADING_USER = 'LOADING_USER';
+export const MARK_NOTIFICATIONS_READ = 'MARK_NOTIFICATIONS_READ';
+
+
+// UI reducer types
+export const SET_ERRORS = 'SET_ERRORS';
+export const SET_ERRORSPAROLA = "SET_ERRORSPAROLA";
+export const LOADING_UI = 'LOADING_UI';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
+export const LOADING_DATA = 'LOADING_DATA';
+export const STOP_LOADING_UI = 'STOP_LOADING_UI';
+
+
+// Data reducer types
+export const SET_SCREAMS = 'SET_SCREAMS';
+export const SET_ICONS = 'SET_ICONS';
+export const SET_BANKAICONS = "SET_BANKAICONS";
+export const SET_ILETISIMICONS = "SET_ILETISIMICONS";
+export const SET_ICON = "SET_ICON";
+export const SET_BANKICON = "SET_BANKICON";
+export const SET_ILETISIMICON = "SET_ILETISIMICON";
+export const SET_SCREAM = 'SET_SCREAM';
+export const LIKE_SCREAM = 'LIKE_SCREAM';
+export const UNLIKE_SCREAM = 'UNLIKE_SCREAM';
+export const DELETE_SCREAM = 'DELETE_SCREAM';
+export const POST_SCREAM = 'POST_SCREAM';
+export const POST_IKON = "POST_IKON";
+export const POST_BANKICON = "POST_BANKICON";
+export const POST_ILETISIMICON = "POST_ILETISIMICON";
+export const SUBMIT_COMMENT = 'SUBMIT_COMMENT';
+export const SUBMIT_URLMEDIA = "SUBMIT_URLMEDIA";
+export const SUBMIT_BANKAURLMEDIA = "SUBMIT_BANKAURLMEDIA";
+export const SUBMIT_ILETISIMURL = "SUBMIT_ILETISIMURL";
